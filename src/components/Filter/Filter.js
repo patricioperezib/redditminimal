@@ -22,15 +22,15 @@ export const Filter = () => {
             <h3>Popular</h3>
           </NavLink>
         </div>
-        <div>
-          <NavLink
-            className={classes.trending}
-            to="/filter/rising"
-            activeStyle={{
-              fontWeight: "bold",
-              color: "red",
-            }}
-          >
+//         <div>
+//           <NavLink
+//             className={classes.trending}
+//             to="/filter/rising"
+//             activeStyle={{
+//               fontWeight: "bold",
+//               color: "red",
+//             }}
+//           >
             <TrendingUpIcon />
             <h3>Rising</h3>
           </NavLink>
