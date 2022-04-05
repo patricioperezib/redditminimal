@@ -22,6 +22,7 @@ export const Filter = () => {
             <h3>Popular</h3>
           </NavLink>
         </div>
+
 //         <div>
 //           <NavLink
 //             className={classes.trending}
@@ -31,10 +32,11 @@ export const Filter = () => {
 //               color: "red",
 //             }}
 //           >
-            <TrendingUpIcon />
-            <h3>Rising</h3>
-          </NavLink>
-        </div>
+//             <TrendingUpIcon />
+//             <h3>Rising</h3>
+//           </NavLink>
+//         </div>
+
         <div>
           <NavLink
             className={classes.top}
